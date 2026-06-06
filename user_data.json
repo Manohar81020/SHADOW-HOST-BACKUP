@@ -7,7 +7,7 @@
       "plan": "lifetime",
       "plan_expires": "2029-03-01T14:17:07.927042+00:00",
       "joined": "2026-06-06T14:07:56.912168+00:00",
-      "last_seen": "2026-06-06T14:24:52.469947+00:00",
+      "last_seen": "2026-06-06T14:30:05.234791+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -22,7 +22,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 3,
-        "logins": 23
+        "logins": 27
       },
       "last_expiry_warn": -1
     }
@@ -64,75 +64,6 @@
       },
       "gh_synced_at": 0,
       "last_started": "2026-06-06T14:09:01.923058+00:00",
-      "last_error": "",
-      "last_exit_code": null
-    },
-    "ed10417c56825b2f": {
-      "_id": "ed10417c56825b2f",
-      "owner": 7505070902,
-      "name": "VPS-HOST-WEB",
-      "dir": "/home/SHADOWXMODS/sandbox/7505070902_ed10417c56825b2f",
-      "created": "2026-06-06T14:15:17.448405+00:00",
-      "enc_files": [
-        {
-          "key_id": "pVw_XIPov3e2zw4kFLS-HA",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780755317_app_py.enc",
-          "filename": "app.py",
-          "rel_path": "app.py"
-        },
-        {
-          "key_id": "Lb4QAikdCvY9MwvLhPWcqQ",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780755320_requirements_txt.enc",
-          "filename": "requirements.txt",
-          "rel_path": "requirements.txt"
-        },
-        {
-          "key_id": "LTeIr71NagX6W3aQLXSExQ",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780755320_templates_activity_html.enc",
-          "filename": "activity.html",
-          "rel_path": "templates/activity.html"
-        },
-        {
-          "key_id": "ZY8so2kdc3RxIOF2XAeYcg",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780755321_templates_index_html.enc",
-          "filename": "index.html",
-          "rel_path": "templates/index.html"
-        },
-        {
-          "key_id": "V3_mVc_GjMclSsSaHhJb5Q",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780755322_templates_login_html.enc",
-          "filename": "login.html",
-          "rel_path": "templates/login.html"
-        },
-        {
-          "key_id": "3Q7RFN0afgqA1APVOY_FQA",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780755323_templates_privacy_html.enc",
-          "filename": "privacy.html",
-          "rel_path": "templates/privacy.html"
-        },
-        {
-          "key_id": "zcz0OfSo3MNKXU20LkpOdw",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780755324_templates_requirements_html.enc",
-          "filename": "requirements.html",
-          "rel_path": "templates/requirements.html"
-        },
-        {
-          "key_id": "vamE4FzbwEqL1bKMq03N9Q",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780755325_templates_terms_html.enc",
-          "filename": "terms.html",
-          "rel_path": "templates/terms.html"
-        }
-      ],
-      "env": {},
-      "status": "running",
-      "cron": {},
-      "security_scan": {
-        "verdict": "SUSPICIOUS",
-        "risk_score": 30,
-        "summary": "File type 'requirements.txt' allow nahi hai."
-      },
-      "gh_synced_at": 0,
-      "last_started": "2026-06-06T14:15:33.575014+00:00",
       "last_error": "",
       "last_exit_code": null
     },
@@ -202,6 +133,12 @@
       "uid": 7505070902,
       "action": "give_plan",
       "detail": "uid=7505070902 plan=lifetime days=999"
+    },
+    {
+      "ts": "2026-06-06T14:30:12.876104+00:00",
+      "uid": 7505070902,
+      "action": "bot_delfiles",
+      "detail": "bot=ed10417c56825b2f"
     }
   ],
   "coupons": {},
