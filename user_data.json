@@ -7,7 +7,7 @@
       "plan": "lifetime",
       "plan_expires": "2029-03-01T14:17:07.927042+00:00",
       "joined": "2026-06-06T14:07:56.912168+00:00",
-      "last_seen": "2026-06-06T16:08:50.245639+00:00",
+      "last_seen": "2026-06-06T16:10:55.648573+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -22,7 +22,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 7,
-        "logins": 51
+        "logins": 56
       },
       "last_expiry_warn": -1
     }
@@ -64,57 +64,6 @@
       },
       "gh_synced_at": 0,
       "last_started": "2026-06-06T14:09:01.923058+00:00",
-      "last_error": "",
-      "last_exit_code": null
-    },
-    "a70885d2273e9fd5": {
-      "_id": "a70885d2273e9fd5",
-      "owner": 7505070902,
-      "name": "DG_HOST_WEB",
-      "dir": "/home/SHADOWXMODS/sandbox/7505070902_a70885d2273e9fd5",
-      "created": "2026-06-06T16:02:58.867189+00:00",
-      "enc_files": [
-        {
-          "key_id": "5eF2zXz5NQ22tEAT_hmsMQ",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780761779_app_py.enc",
-          "filename": "app.py",
-          "rel_path": "app.py"
-        },
-        {
-          "key_id": "0dBVIvESjd0zwZYPsPinCA",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780761780_requirements_txt.enc",
-          "filename": "requirements.txt",
-          "rel_path": "requirements.txt"
-        },
-        {
-          "key_id": "SCDGkMkg6pw1SktzZJe8pA",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780761781_templates_index_html.enc",
-          "filename": "index.html",
-          "rel_path": "templates/index.html"
-        },
-        {
-          "key_id": "3S9ZFs2LrXDq-klFZtnPFw",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780761781_templates_web_dashboard_html.enc",
-          "filename": "dashboard.html",
-          "rel_path": "templates/web/dashboard.html"
-        },
-        {
-          "key_id": "yVkliHE7fncnAESwha5xLw",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780761782_templates_web_login_html.enc",
-          "filename": "login.html",
-          "rel_path": "templates/web/login.html"
-        }
-      ],
-      "env": {},
-      "status": "running",
-      "cron": {},
-      "security_scan": {
-        "verdict": "SUSPICIOUS",
-        "risk_score": 30,
-        "summary": "File type 'requirements.txt' allow nahi hai."
-      },
-      "gh_synced_at": 0,
-      "last_started": "2026-06-06T16:03:11.159562+00:00",
       "last_error": "",
       "last_exit_code": null
     },
@@ -208,6 +157,12 @@
       "uid": 7505070902,
       "action": "bot_delfiles",
       "detail": "bot=2a2d0713f1cd865c"
+    },
+    {
+      "ts": "2026-06-06T16:10:52.301091+00:00",
+      "uid": 7505070902,
+      "action": "bot_delfiles",
+      "detail": "bot=a70885d2273e9fd5"
     }
   ],
   "coupons": {},
