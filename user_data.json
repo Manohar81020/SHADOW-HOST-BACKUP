@@ -7,7 +7,7 @@
       "plan": "lifetime",
       "plan_expires": "2029-03-01T14:17:07.927042+00:00",
       "joined": "2026-06-06T14:07:56.912168+00:00",
-      "last_seen": "2026-06-06T14:30:05.234791+00:00",
+      "last_seen": "2026-06-06T15:58:27.510599+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -21,8 +21,8 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 3,
-        "logins": 27
+        "bots_uploaded": 4,
+        "logins": 29
       },
       "last_expiry_warn": -1
     }
@@ -111,6 +111,58 @@
       "last_started": "2026-06-06T14:25:04.343377+00:00",
       "last_error": "",
       "last_exit_code": null
+    },
+    "9f351a7147322502": {
+      "_id": "9f351a7147322502",
+      "owner": 7505070902,
+      "name": "DG_HOST_WEB",
+      "dir": "/home/SHADOWXMODS/sandbox/7505070902_9f351a7147322502",
+      "created": "2026-06-06T15:58:09.541892+00:00",
+      "enc_files": [
+        {
+          "key_id": "In_d0uE6v3QSw-pTsd_hxg",
+          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780761490_app_py.enc",
+          "filename": "app.py",
+          "rel_path": "app.py"
+        },
+        {
+          "key_id": "dDGqryenmLfKe3-V8NfpwQ",
+          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780761490_requirements_txt.enc",
+          "filename": "requirements.txt",
+          "rel_path": "requirements.txt"
+        },
+        {
+          "key_id": "BNR0f75bGXVAdCp1jArZWg",
+          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780761491_templates_index_html.enc",
+          "filename": "index.html",
+          "rel_path": "templates/index.html"
+        },
+        {
+          "key_id": "6zjDiGIas7k0ibDMX-FyPw",
+          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780761492_templates_web_dashboard_html.enc",
+          "filename": "dashboard.html",
+          "rel_path": "templates/web/dashboard.html"
+        },
+        {
+          "key_id": "Tj2yBIgf7XeyJ6JSlcQCOw",
+          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780761493_templates_web_login_html.enc",
+          "filename": "login.html",
+          "rel_path": "templates/web/login.html"
+        }
+      ],
+      "env": {},
+      "status": "crashed",
+      "cron": {},
+      "security_scan": {
+        "verdict": "SUSPICIOUS",
+        "risk_score": 30,
+        "summary": "File type 'requirements.txt' allow nahi hai."
+      },
+      "gh_synced_at": 0,
+      "last_started": "2026-06-06T15:59:11.594333+00:00",
+      "last_error": "    ~~~~~~~~~~^^\n  File \"/home/SHADOWXMODS/sandbox/7505070902_9f351a7147322502/.deps/flask_socketio/__init__.py\", line 685, in run_server\n    eventlet_socket = eventlet.listen(addresses[0][4],\n                                      addresses[0][0])\n  File \"/home/SHADOWXMODS/sandbox/7505070902_9f351a7147322502/.deps/eventlet/convenience.py\", line 78, in listen\n    sock.bind(addr)\n    ~~~~~~~~~^^^^^^\nOSError: [Errno 98] Address already in use",
+      "last_exit_code": 1,
+      "last_exit_at": "2026-06-06T15:59:12.025165+00:00"
     }
   },
   "payments": [],
@@ -170,6 +222,14 @@
       "verdict": "SUSPICIOUS",
       "risk_score": 30,
       "summary": "File type 'backup_config.json' allow nahi hai."
+    },
+    {
+      "ts": "2026-06-06T15:58:09.789725+00:00",
+      "uid": "7505070902",
+      "filename": "requirements.txt",
+      "verdict": "SUSPICIOUS",
+      "risk_score": 30,
+      "summary": "File type 'requirements.txt' allow nahi hai."
     }
   ]
 }
