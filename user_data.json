@@ -7,7 +7,7 @@
       "plan": "lifetime",
       "plan_expires": "2029-03-01T14:17:07.927042+00:00",
       "joined": "2026-06-06T14:07:56.912168+00:00",
-      "last_seen": "2026-06-06T14:17:24.788752+00:00",
+      "last_seen": "2026-06-06T14:24:52.469947+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -21,8 +21,8 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 2,
-        "logins": 22
+        "bots_uploaded": 3,
+        "logins": 23
       },
       "last_expiry_warn": -1
     }
@@ -135,6 +135,51 @@
       "last_started": "2026-06-06T14:15:33.575014+00:00",
       "last_error": "",
       "last_exit_code": null
+    },
+    "2a2d0713f1cd865c": {
+      "_id": "2a2d0713f1cd865c",
+      "owner": 7505070902,
+      "name": "VPS-HOST-BOT",
+      "dir": "/home/SHADOWXMODS/sandbox/7505070902_2a2d0713f1cd865c",
+      "created": "2026-06-06T14:24:53.032854+00:00",
+      "enc_files": [
+        {
+          "key_id": "eVgdKOUbC4zD6kfrhS3wow",
+          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780755893_backup_config_json.enc",
+          "filename": "backup_config.json",
+          "rel_path": "backup_config.json"
+        },
+        {
+          "key_id": "Bh0lJwj5reSUl_SozRTfyA",
+          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780755894_force_chats_json.enc",
+          "filename": "force_chats.json",
+          "rel_path": "force_chats.json"
+        },
+        {
+          "key_id": "I4EfZrNhlSZ7sP386OsZFg",
+          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780755895_main_py.enc",
+          "filename": "main.py",
+          "rel_path": "main.py"
+        },
+        {
+          "key_id": "Yrt8DXLd7Bhm2hzZjaQOqA",
+          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780755896_requirements_txt.enc",
+          "filename": "requirements.txt",
+          "rel_path": "requirements.txt"
+        }
+      ],
+      "env": {},
+      "status": "running",
+      "cron": {},
+      "security_scan": {
+        "verdict": "SUSPICIOUS",
+        "risk_score": 30,
+        "summary": "File type 'backup_config.json' allow nahi hai."
+      },
+      "gh_synced_at": 0,
+      "last_started": "2026-06-06T14:25:04.343377+00:00",
+      "last_error": "",
+      "last_exit_code": null
     }
   },
   "payments": [],
@@ -180,6 +225,14 @@
       "verdict": "SUSPICIOUS",
       "risk_score": 30,
       "summary": "File type 'requirements.txt' allow nahi hai."
+    },
+    {
+      "ts": "2026-06-06T14:24:53.304057+00:00",
+      "uid": "7505070902",
+      "filename": "backup_config.json",
+      "verdict": "SUSPICIOUS",
+      "risk_score": 30,
+      "summary": "File type 'backup_config.json' allow nahi hai."
     }
   ]
 }
