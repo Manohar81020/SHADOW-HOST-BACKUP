@@ -4,10 +4,10 @@
       "_id": 7505070902,
       "name": "𝐒𝐇𝐀𝐃𝐎𝐖 𝐕𝐈𝐏",
       "username": "",
-      "plan": "lifetime",
-      "plan_expires": "2029-03-01T14:17:07.927042+00:00",
-      "joined": "2026-06-06T14:07:56.912168+00:00",
-      "last_seen": "2026-06-07T06:05:21.116658+00:00",
+      "plan": "free",
+      "plan_expires": null,
+      "joined": "2026-06-09T10:15:29.148383+00:00",
+      "last_seen": "2026-06-09T10:15:57.929879+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -21,156 +21,52 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 8,
-        "logins": 62
-      },
-      "last_expiry_warn": -1
+        "bots_uploaded": 1,
+        "logins": 2
+      }
     }
   },
   "bots": {
-    "86e624b555b8f03d": {
-      "_id": "86e624b555b8f03d",
+    "8202395e345e60d7": {
+      "_id": "8202395e345e60d7",
       "owner": 7505070902,
       "name": "INFO-BOT",
-      "dir": "/home/SHADOWXMODS/sandbox/7505070902_86e624b555b8f03d",
-      "created": "2026-06-06T14:08:45.575023+00:00",
+      "dir": "/home/shadowxmods/sandbox/7505070902_8202395e345e60d7",
+      "created": "2026-06-09T10:15:59.596572+00:00",
       "enc_files": [
         {
-          "key_id": "lrMYcT2MV7UfPN2znHST6A",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780754926_force_chats_json.enc",
+          "key_id": "Fj-kZEkyHYLPTztK90xclQ",
+          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781000160_force_chats_json.enc",
           "filename": "force_chats.json",
           "rel_path": "force_chats.json"
         },
         {
-          "key_id": "WPVAFBOr7a97RXHbBH4BXA",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780754927_infobot_py.enc",
+          "key_id": "roYAM_uuGaflQ3h0FYgCiQ",
+          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781000161_infobot_py.enc",
           "filename": "infobot.py",
           "rel_path": "infobot.py"
         },
         {
-          "key_id": "8Oupb1DB1WmzAAAtuIFvsA",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780754928_requirements_txt.enc",
+          "key_id": "0ajtrTaIFeU-_tJE1oSaRw",
+          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781000162_requirements_txt.enc",
           "filename": "requirements.txt",
           "rel_path": "requirements.txt"
         }
       ],
       "env": {},
-      "status": "running",
+      "status": "stopped",
       "cron": {},
       "security_scan": {
         "verdict": "SUSPICIOUS",
         "risk_score": 30,
         "summary": "File type 'force_chats.json' allow nahi hai."
       },
-      "gh_synced_at": 0,
-      "last_started": "2026-06-06T14:09:01.923058+00:00",
-      "last_error": "",
-      "last_exit_code": null
-    },
-    "c5f43139d91f22ef": {
-      "_id": "c5f43139d91f22ef",
-      "owner": 7505070902,
-      "name": "VPS-HOST-BOT",
-      "dir": "/home/SHADOWXMODS/sandbox/7505070902_c5f43139d91f22ef",
-      "created": "2026-06-06T16:08:50.785663+00:00",
-      "enc_files": [
-        {
-          "key_id": "gkSkNfR-Ub2tbfjk68ufGQ",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780762131_backup_config_json.enc",
-          "filename": "backup_config.json",
-          "rel_path": "backup_config.json"
-        },
-        {
-          "key_id": "T78OqGf2plOb9ZNiqfXKbw",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780762132_force_chats_json.enc",
-          "filename": "force_chats.json",
-          "rel_path": "force_chats.json"
-        },
-        {
-          "key_id": "MhkKnCVxHC_O51HnLTrX3g",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780762132_main_py.enc",
-          "filename": "main.py",
-          "rel_path": "main.py"
-        },
-        {
-          "key_id": "1v3o0-9morSTrSDFgVKp1g",
-          "enc_path": "/home/SHADOWXMODS/storage/encfiles/7505070902/1780762133_requirements_txt.enc",
-          "filename": "requirements.txt",
-          "rel_path": "requirements.txt"
-        }
-      ],
-      "env": {},
-      "status": "running",
-      "cron": {},
-      "security_scan": {
-        "verdict": "SUSPICIOUS",
-        "risk_score": 30,
-        "summary": "File type 'backup_config.json' allow nahi hai."
-      },
-      "gh_synced_at": 0,
-      "last_started": "2026-06-06T16:09:02.209790+00:00",
-      "last_error": "",
-      "last_exit_code": null
+      "gh_synced_at": 0
     }
   },
   "payments": [],
   "admins": {},
-  "audit": [
-    {
-      "ts": "2026-06-06T14:16:13.172481+00:00",
-      "uid": 7505070902,
-      "action": "buy_plan_toggle",
-      "detail": "now=False"
-    },
-    {
-      "ts": "2026-06-06T14:16:14.741139+00:00",
-      "uid": 7505070902,
-      "action": "menu_toggle",
-      "detail": "menu_plans_enabled=OFF"
-    },
-    {
-      "ts": "2026-06-06T14:17:08.198579+00:00",
-      "uid": 7505070902,
-      "action": "give_plan",
-      "detail": "uid=7505070902 plan=lifetime days=999"
-    },
-    {
-      "ts": "2026-06-06T14:30:12.876104+00:00",
-      "uid": 7505070902,
-      "action": "bot_delfiles",
-      "detail": "bot=ed10417c56825b2f"
-    },
-    {
-      "ts": "2026-06-06T15:59:32.168403+00:00",
-      "uid": 7505070902,
-      "action": "bot_delfiles",
-      "detail": "bot=9f351a7147322502"
-    },
-    {
-      "ts": "2026-06-06T16:02:27.884380+00:00",
-      "uid": 7505070902,
-      "action": "bot_delfiles",
-      "detail": "bot=c1fc1241071df135"
-    },
-    {
-      "ts": "2026-06-06T16:08:25.859918+00:00",
-      "uid": 7505070902,
-      "action": "bot_delfiles",
-      "detail": "bot=2a2d0713f1cd865c"
-    },
-    {
-      "ts": "2026-06-06T16:10:52.301091+00:00",
-      "uid": 7505070902,
-      "action": "bot_delfiles",
-      "detail": "bot=a70885d2273e9fd5"
-    },
-    {
-      "ts": "2026-06-07T06:05:22.996650+00:00",
-      "uid": 7505070902,
-      "action": "bot_delfiles",
-      "detail": "bot=afcf24e26b1ac0b9"
-    }
-  ],
+  "audit": [],
   "coupons": {},
   "tickets": {},
   "scheduled_broadcasts": [],
@@ -178,68 +74,12 @@
   "rate_violations": {},
   "scan_log": [
     {
-      "ts": "2026-06-06T14:08:46.288526+00:00",
+      "ts": "2026-06-09T10:16:00.333159+00:00",
       "uid": "7505070902",
       "filename": "force_chats.json",
       "verdict": "SUSPICIOUS",
       "risk_score": 30,
       "summary": "File type 'force_chats.json' allow nahi hai."
-    },
-    {
-      "ts": "2026-06-06T14:15:17.716538+00:00",
-      "uid": "7505070902",
-      "filename": "requirements.txt",
-      "verdict": "SUSPICIOUS",
-      "risk_score": 30,
-      "summary": "File type 'requirements.txt' allow nahi hai."
-    },
-    {
-      "ts": "2026-06-06T14:24:53.304057+00:00",
-      "uid": "7505070902",
-      "filename": "backup_config.json",
-      "verdict": "SUSPICIOUS",
-      "risk_score": 30,
-      "summary": "File type 'backup_config.json' allow nahi hai."
-    },
-    {
-      "ts": "2026-06-06T15:58:09.789725+00:00",
-      "uid": "7505070902",
-      "filename": "requirements.txt",
-      "verdict": "SUSPICIOUS",
-      "risk_score": 30,
-      "summary": "File type 'requirements.txt' allow nahi hai."
-    },
-    {
-      "ts": "2026-06-06T15:59:59.815829+00:00",
-      "uid": "7505070902",
-      "filename": "requirements.txt",
-      "verdict": "SUSPICIOUS",
-      "risk_score": 30,
-      "summary": "File type 'requirements.txt' allow nahi hai."
-    },
-    {
-      "ts": "2026-06-06T16:02:59.112340+00:00",
-      "uid": "7505070902",
-      "filename": "requirements.txt",
-      "verdict": "SUSPICIOUS",
-      "risk_score": 30,
-      "summary": "File type 'requirements.txt' allow nahi hai."
-    },
-    {
-      "ts": "2026-06-06T16:08:51.032350+00:00",
-      "uid": "7505070902",
-      "filename": "backup_config.json",
-      "verdict": "SUSPICIOUS",
-      "risk_score": 30,
-      "summary": "File type 'backup_config.json' allow nahi hai."
-    },
-    {
-      "ts": "2026-06-07T06:02:51.599112+00:00",
-      "uid": "7505070902",
-      "filename": "Media-downloader.py",
-      "verdict": "SUSPICIOUS",
-      "risk_score": 10,
-      "summary": "🔍 File suspicious hai. Admin se manual review karwao."
     }
   ]
 }
