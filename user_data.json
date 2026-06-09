@@ -54,14 +54,17 @@
         }
       ],
       "env": {},
-      "status": "stopped",
+      "status": "running",
       "cron": {},
       "security_scan": {
         "verdict": "SUSPICIOUS",
         "risk_score": 30,
         "summary": "File type 'force_chats.json' allow nahi hai."
       },
-      "gh_synced_at": 0
+      "gh_synced_at": 0,
+      "last_started": "2026-06-09T10:16:16.460874+00:00",
+      "last_error": "",
+      "last_exit_code": null
     }
   },
   "payments": [],
