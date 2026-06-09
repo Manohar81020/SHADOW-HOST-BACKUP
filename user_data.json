@@ -7,7 +7,7 @@
       "plan": "free",
       "plan_expires": null,
       "joined": "2026-06-09T10:15:29.148383+00:00",
-      "last_seen": "2026-06-09T10:34:41.188962+00:00",
+      "last_seen": "2026-06-09T10:36:35.265247+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -22,48 +22,11 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 2,
-        "logins": 12
+        "logins": 19
       }
     }
   },
-  "bots": {
-    "1f543cf6bb01e8ea": {
-      "_id": "1f543cf6bb01e8ea",
-      "owner": 7505070902,
-      "name": "INFO-BOT",
-      "dir": "/home/shadowxmods/sandbox/7505070902_1f543cf6bb01e8ea",
-      "created": "2026-06-09T10:34:26.216429+00:00",
-      "enc_files": [
-        {
-          "key_id": "BWCKqiXwQjTG0XOo5Y0MtA",
-          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781001267_force_chats_json.enc",
-          "filename": "force_chats.json",
-          "rel_path": "force_chats.json"
-        },
-        {
-          "key_id": "GJev6w-YxbErk2ncI7ssdQ",
-          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781001268_infobot_py.enc",
-          "filename": "infobot.py",
-          "rel_path": "infobot.py"
-        },
-        {
-          "key_id": "tJaNCC8oiw_aCpHs6RiGJQ",
-          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781001269_requirements_txt.enc",
-          "filename": "requirements.txt",
-          "rel_path": "requirements.txt"
-        }
-      ],
-      "env": {},
-      "status": "stopped",
-      "cron": {},
-      "security_scan": {
-        "verdict": "SUSPICIOUS",
-        "risk_score": 30,
-        "summary": "File type 'force_chats.json' allow nahi hai."
-      },
-      "gh_synced_at": 0
-    }
-  },
+  "bots": {},
   "payments": [],
   "admins": {},
   "audit": [
@@ -72,6 +35,12 @@
       "uid": 7505070902,
       "action": "bot_delfiles",
       "detail": "bot=8202395e345e60d7"
+    },
+    {
+      "ts": "2026-06-09T10:36:39.796466+00:00",
+      "uid": 7505070902,
+      "action": "bot_delfiles",
+      "detail": "bot=1f543cf6bb01e8ea"
     }
   ],
   "coupons": {},
