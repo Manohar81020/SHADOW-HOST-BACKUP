@@ -4,10 +4,10 @@
       "_id": 7505070902,
       "name": "𝐒𝐇𝐀𝐃𝐎𝐖 𝐕𝐈𝐏",
       "username": "",
-      "plan": "lifetime",
-      "plan_expires": "2029-03-04T14:28:42.584675+00:00",
+      "plan": "free",
+      "plan_expires": null,
       "joined": "2026-06-09T10:15:29.148383+00:00",
-      "last_seen": "2026-06-10T03:32:49.369311+00:00",
+      "last_seen": "2026-06-09T10:36:35.265247+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -21,163 +21,12 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 7,
-        "logins": 51
-      },
-      "last_expiry_warn": -1
+        "bots_uploaded": 2,
+        "logins": 19
+      }
     }
   },
-  "bots": {
-    "b289ad5e98e45c68": {
-      "_id": "b289ad5e98e45c68",
-      "owner": 7505070902,
-      "name": "INFO-BOT",
-      "dir": "/home/shadowxmods/sandbox/7505070902_b289ad5e98e45c68",
-      "created": "2026-06-09T13:55:44.056311+00:00",
-      "enc_files": [
-        {
-          "key_id": "KEz2DLLeZUA5ZqlzYB2HXQ",
-          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781013345_force_chats_json.enc",
-          "filename": "force_chats.json",
-          "rel_path": "force_chats.json"
-        },
-        {
-          "key_id": "SvYAT6Z83FLHSAQEq_WCZQ",
-          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781013346_infobot_py.enc",
-          "filename": "infobot.py",
-          "rel_path": "infobot.py"
-        },
-        {
-          "key_id": "ZVRP_k7zLcgA0H2AgSBwTQ",
-          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781013347_requirements_txt.enc",
-          "filename": "requirements.txt",
-          "rel_path": "requirements.txt"
-        }
-      ],
-      "env": {},
-      "status": "running",
-      "cron": {},
-      "security_scan": {
-        "verdict": "SUSPICIOUS",
-        "risk_score": 30,
-        "summary": "File type 'force_chats.json' allow nahi hai."
-      },
-      "gh_synced_at": 0,
-      "last_started": "2026-06-09T13:56:01.206839+00:00",
-      "last_error": "",
-      "last_exit_code": null
-    },
-    "bc3a15d3de3d0cb4": {
-      "_id": "bc3a15d3de3d0cb4",
-      "owner": 7505070902,
-      "name": "VPS-HOST-BOT",
-      "dir": "/home/shadowxmods/sandbox/7505070902_bc3a15d3de3d0cb4",
-      "created": "2026-06-09T14:18:48.640317+00:00",
-      "enc_files": [
-        {
-          "key_id": "x6irDAZ-Xp89qiQmX-Gngw",
-          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781014729_backup_config_json.enc",
-          "filename": "backup_config.json",
-          "rel_path": "backup_config.json"
-        },
-        {
-          "key_id": "-ZCZf4W56SsEe6ttmTibFw",
-          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781014730_force_chats_json.enc",
-          "filename": "force_chats.json",
-          "rel_path": "force_chats.json"
-        },
-        {
-          "key_id": "Ju33D6kPzy9_mDw5qSri7w",
-          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781014731_main_py.enc",
-          "filename": "main.py",
-          "rel_path": "main.py"
-        },
-        {
-          "key_id": "XvXc-RU3hFcQbErTuE4hCw",
-          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781014732_requirements_txt.enc",
-          "filename": "requirements.txt",
-          "rel_path": "requirements.txt"
-        }
-      ],
-      "env": {},
-      "status": "running",
-      "cron": {},
-      "security_scan": {
-        "verdict": "SUSPICIOUS",
-        "risk_score": 30,
-        "summary": "File type 'backup_config.json' allow nahi hai."
-      },
-      "gh_synced_at": 0,
-      "last_started": "2026-06-10T03:01:04.347835+00:00",
-      "last_error": "",
-      "last_exit_code": null,
-      "last_exit_at": "2026-06-10T03:00:56.516007+00:00"
-    },
-    "7eb430823e7e11bb": {
-      "_id": "7eb430823e7e11bb",
-      "owner": 7505070902,
-      "name": "SHADOWZONE-WEB",
-      "dir": "/home/shadowxmods/sandbox/7505070902_7eb430823e7e11bb",
-      "created": "2026-06-10T03:32:12.211346+00:00",
-      "enc_files": [
-        {
-          "key_id": "Zg7HQ1nqk8DHdgW1pZG0ng",
-          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781062332_Procfile.enc",
-          "filename": "Procfile",
-          "rel_path": "Procfile"
-        },
-        {
-          "key_id": "lvnk4FJY_bKpwvfFAe8VSA",
-          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781062333_README_md.enc",
-          "filename": "README.md",
-          "rel_path": "README.md"
-        },
-        {
-          "key_id": "tlORsBmZwNDjsZFs4GJHdg",
-          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781062334_pycache___app_cpython-313_pyc.enc",
-          "filename": "app.cpython-313.pyc",
-          "rel_path": "__pycache__/app.cpython-313.pyc"
-        },
-        {
-          "key_id": "EUoM7hYXGWdrKapTzQSzzA",
-          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781062335_app_py.enc",
-          "filename": "app.py",
-          "rel_path": "app.py"
-        },
-        {
-          "key_id": "FU7mud43PALjNjOZzGvS3A",
-          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781062336_render_yaml.enc",
-          "filename": "render.yaml",
-          "rel_path": "render.yaml"
-        },
-        {
-          "key_id": "5Z5CewlvNliBaKej3kMpAw",
-          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781062337_requirements_txt.enc",
-          "filename": "requirements.txt",
-          "rel_path": "requirements.txt"
-        },
-        {
-          "key_id": "XIxlnkhzvUUq5WjNMmTTsA",
-          "enc_path": "/home/shadowxmods/storage/encfiles/7505070902/1781062338_runtime_txt.enc",
-          "filename": "runtime.txt",
-          "rel_path": "runtime.txt"
-        }
-      ],
-      "env": {},
-      "status": "crashed",
-      "cron": {},
-      "security_scan": {
-        "verdict": "ERROR",
-        "risk_score": 50,
-        "summary": "Scan error: source code string cannot contain null bytes"
-      },
-      "gh_synced_at": 0,
-      "last_started": "2026-06-10T03:33:21.531480+00:00",
-      "last_error": "  Using cached packaging-26.2-py3-none-any.whl (100 kB)\nInstalling collected packages: packaging, markupsafe, itsdangerous, click, blinker, werkzeug, jinja2, gunicorn, flask\nSuccessfully installed blinker-1.9.0 click-8.4.1 flask-3.1.3 gunicorn-26.0.0 itsdangerous-2.2.0 jinja2-3.1.6 markupsafe-3.0.3 packaging-26.2 werkzeug-3.1.8\n[✓] requirements.txt done (rc=0)\n  File \"/home/shadowxmods/sandbox/7505070902_7eb430823e7e11bb/app.py\", line 1\n    <\n    ^\nSyntaxError: invalid syntax",
-      "last_exit_code": 1,
-      "last_exit_at": "2026-06-10T03:33:21.539286+00:00"
-    }
-  },
+  "bots": {},
   "payments": [],
   "admins": {},
   "audit": [
@@ -192,24 +41,6 @@
       "uid": 7505070902,
       "action": "bot_delfiles",
       "detail": "bot=1f543cf6bb01e8ea"
-    },
-    {
-      "ts": "2026-06-09T14:28:42.947820+00:00",
-      "uid": 7505070902,
-      "action": "give_plan",
-      "detail": "uid=7505070902 plan=lifetime days=999"
-    },
-    {
-      "ts": "2026-06-09T15:34:45.951066+00:00",
-      "uid": 7505070902,
-      "action": "bot_delfiles",
-      "detail": "bot=6e0e6af57438fbae"
-    },
-    {
-      "ts": "2026-06-10T03:31:29.939075+00:00",
-      "uid": 7505070902,
-      "action": "bot_delfiles",
-      "detail": "bot=d09bca6b90b16046"
     }
   ],
   "coupons": {},
@@ -233,46 +64,6 @@
       "verdict": "SUSPICIOUS",
       "risk_score": 30,
       "summary": "File type 'force_chats.json' allow nahi hai."
-    },
-    {
-      "ts": "2026-06-09T13:55:44.824443+00:00",
-      "uid": "7505070902",
-      "filename": "force_chats.json",
-      "verdict": "SUSPICIOUS",
-      "risk_score": 30,
-      "summary": "File type 'force_chats.json' allow nahi hai."
-    },
-    {
-      "ts": "2026-06-09T14:18:49.010968+00:00",
-      "uid": "7505070902",
-      "filename": "backup_config.json",
-      "verdict": "SUSPICIOUS",
-      "risk_score": 30,
-      "summary": "File type 'backup_config.json' allow nahi hai."
-    },
-    {
-      "ts": "2026-06-09T14:29:01.692585+00:00",
-      "uid": "7505070902",
-      "filename": "requirements.txt",
-      "verdict": "SUSPICIOUS",
-      "risk_score": 30,
-      "summary": "File type 'requirements.txt' allow nahi hai."
-    },
-    {
-      "ts": "2026-06-10T03:30:44.237564+00:00",
-      "uid": "7505070902",
-      "filename": "app.cpython-313.pyc",
-      "verdict": "ERROR",
-      "risk_score": 50,
-      "summary": "Scan error: source code string cannot contain null bytes"
-    },
-    {
-      "ts": "2026-06-10T03:32:12.576778+00:00",
-      "uid": "7505070902",
-      "filename": "app.cpython-313.pyc",
-      "verdict": "ERROR",
-      "risk_score": 50,
-      "summary": "Scan error: source code string cannot contain null bytes"
     }
   ]
 }
