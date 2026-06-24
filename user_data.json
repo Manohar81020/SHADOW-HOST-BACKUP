@@ -7,7 +7,7 @@
       "plan": "lifetime",
       "plan_expires": "2029-03-04T14:28:42.584675+00:00",
       "joined": "2026-06-09T10:15:29.148383+00:00",
-      "last_seen": "2026-06-24T12:51:10.778532+00:00",
+      "last_seen": "2026-06-24T12:52:26.555806+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -22,49 +22,12 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 12,
-        "logins": 109
+        "logins": 113
       },
       "last_expiry_warn": -1
     }
   },
-  "bots": {
-    "6ab478067b480029": {
-      "_id": "6ab478067b480029",
-      "owner": 7505070902,
-      "name": "INFO-BOT",
-      "dir": "/root/sandbox/7505070902_6ab478067b480029",
-      "created": "2026-06-24T12:51:12.461844+00:00",
-      "enc_files": [
-        {
-          "key_id": "CFH3je_JFht2EwQTLGR-Sg",
-          "enc_path": "/root/storage/encfiles/7505070902/1782305473_force_chats_json.enc",
-          "filename": "force_chats.json",
-          "rel_path": "force_chats.json"
-        },
-        {
-          "key_id": "mzRXXHYmf4aiibwW1XcBNw",
-          "enc_path": "/root/storage/encfiles/7505070902/1782305474_infobot_py.enc",
-          "filename": "infobot.py",
-          "rel_path": "infobot.py"
-        },
-        {
-          "key_id": "MOKk3VDHhINjYG-h5f5Qug",
-          "enc_path": "/root/storage/encfiles/7505070902/1782305475_requirements_txt.enc",
-          "filename": "requirements.txt",
-          "rel_path": "requirements.txt"
-        }
-      ],
-      "env": {},
-      "status": "stopped",
-      "cron": {},
-      "security_scan": {
-        "verdict": "SUSPICIOUS",
-        "risk_score": 30,
-        "summary": "File type 'force_chats.json' allow nahi hai."
-      },
-      "gh_synced_at": 0
-    }
-  },
+  "bots": {},
   "payments": [],
   "admins": {},
   "audit": [
@@ -139,6 +102,12 @@
       "uid": 7505070902,
       "action": "bot_delfiles",
       "detail": "bot=ab2b9d03865348b3"
+    },
+    {
+      "ts": "2026-06-24T12:52:30.168182+00:00",
+      "uid": 7505070902,
+      "action": "bot_delfiles",
+      "detail": "bot=6ab478067b480029"
     }
   ],
   "coupons": {},
