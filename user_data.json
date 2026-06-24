@@ -7,7 +7,7 @@
       "plan": "lifetime",
       "plan_expires": "2029-03-04T14:28:42.584675+00:00",
       "joined": "2026-06-09T10:15:29.148383+00:00",
-      "last_seen": "2026-06-12T13:38:04.673515+00:00",
+      "last_seen": "2026-06-24T12:51:10.778532+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -21,35 +21,35 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 11,
-        "logins": 100
+        "bots_uploaded": 12,
+        "logins": 109
       },
       "last_expiry_warn": -1
     }
   },
   "bots": {
-    "ab2b9d03865348b3": {
-      "_id": "ab2b9d03865348b3",
+    "6ab478067b480029": {
+      "_id": "6ab478067b480029",
       "owner": 7505070902,
       "name": "INFO-BOT",
-      "dir": "/app/sandbox/7505070902_ab2b9d03865348b3",
-      "created": "2026-06-12T13:22:02.819230+00:00",
+      "dir": "/root/sandbox/7505070902_6ab478067b480029",
+      "created": "2026-06-24T12:51:12.461844+00:00",
       "enc_files": [
         {
-          "key_id": "iattkrHwYXyDBTlF39krfg",
-          "enc_path": "/app/storage/encfiles/7505070902/1781270571_force_chats_json.enc",
+          "key_id": "CFH3je_JFht2EwQTLGR-Sg",
+          "enc_path": "/root/storage/encfiles/7505070902/1782305473_force_chats_json.enc",
           "filename": "force_chats.json",
           "rel_path": "force_chats.json"
         },
         {
-          "key_id": "Xho3Zwni3va4SsZxFElnIg",
-          "enc_path": "/app/storage/encfiles/7505070902/1781270574_infobot_py.enc",
+          "key_id": "mzRXXHYmf4aiibwW1XcBNw",
+          "enc_path": "/root/storage/encfiles/7505070902/1782305474_infobot_py.enc",
           "filename": "infobot.py",
           "rel_path": "infobot.py"
         },
         {
-          "key_id": "1OxVqckt1jN0MbK13SyZzQ",
-          "enc_path": "/app/storage/encfiles/7505070902/1781270575_requirements_txt.enc",
+          "key_id": "MOKk3VDHhINjYG-h5f5Qug",
+          "enc_path": "/root/storage/encfiles/7505070902/1782305475_requirements_txt.enc",
           "filename": "requirements.txt",
           "rel_path": "requirements.txt"
         }
@@ -133,6 +133,12 @@
       "uid": 7505070902,
       "action": "bot_delfiles",
       "detail": "bot=65d8c6b48dcd10dc"
+    },
+    {
+      "ts": "2026-06-24T12:50:58.752524+00:00",
+      "uid": 7505070902,
+      "action": "bot_delfiles",
+      "detail": "bot=ab2b9d03865348b3"
     }
   ],
   "coupons": {},
@@ -223,6 +229,14 @@
     },
     {
       "ts": "2026-06-12T13:22:49.559728+00:00",
+      "uid": "7505070902",
+      "filename": "force_chats.json",
+      "verdict": "SUSPICIOUS",
+      "risk_score": 30,
+      "summary": "File type 'force_chats.json' allow nahi hai."
+    },
+    {
+      "ts": "2026-06-24T12:51:13.187488+00:00",
       "uid": "7505070902",
       "filename": "force_chats.json",
       "verdict": "SUSPICIOUS",
