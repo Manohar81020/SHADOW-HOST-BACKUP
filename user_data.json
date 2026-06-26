@@ -7,7 +7,7 @@
       "plan": "lifetime",
       "plan_expires": "2029-03-04T14:28:42.584675+00:00",
       "joined": "2026-06-09T10:15:29.148383+00:00",
-      "last_seen": "2026-06-26T01:49:25.877528+00:00",
+      "last_seen": "2026-06-26T01:52:23.639056+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -22,46 +22,12 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 15,
-        "logins": 134
+        "logins": 137
       },
       "last_expiry_warn": -1
     }
   },
-  "bots": {
-    "0c77e8d8c3560606": {
-      "_id": "0c77e8d8c3560606",
-      "owner": 7505070902,
-      "name": "HOSTING-WEB",
-      "dir": "/root/sandbox/7505070902_0c77e8d8c3560606",
-      "created": "2026-06-26T01:49:05.786885+00:00",
-      "enc_files": [
-        {
-          "key_id": "D4rFRgX6j9fUr-c6JPEx9w",
-          "enc_path": "/root/storage/encfiles/7505070902/1782438546_app_py.enc",
-          "filename": "app.py",
-          "rel_path": "app.py"
-        },
-        {
-          "key_id": "zBxt_HcFRZMV3pczYeb71g",
-          "enc_path": "/root/storage/encfiles/7505070902/1782438547_requirements_txt.enc",
-          "filename": "requirements.txt",
-          "rel_path": "requirements.txt"
-        }
-      ],
-      "env": {},
-      "status": "running",
-      "cron": {},
-      "security_scan": {
-        "verdict": "SUSPICIOUS",
-        "risk_score": 30,
-        "summary": "File type 'requirements.txt' allow nahi hai."
-      },
-      "gh_synced_at": 0,
-      "last_started": "2026-06-26T01:49:15.221913+00:00",
-      "last_error": "",
-      "last_exit_code": null
-    }
-  },
+  "bots": {},
   "payments": [],
   "admins": {},
   "audit": [
@@ -154,6 +120,12 @@
       "uid": 7505070902,
       "action": "bot_delfiles",
       "detail": "bot=d07ea6cb6564b1ac"
+    },
+    {
+      "ts": "2026-06-26T01:52:26.223117+00:00",
+      "uid": 7505070902,
+      "action": "bot_delfiles",
+      "detail": "bot=0c77e8d8c3560606"
     }
   ],
   "coupons": {},
