@@ -7,7 +7,7 @@
       "plan": "lifetime",
       "plan_expires": "2029-03-04T14:28:42.584675+00:00",
       "joined": "2026-06-09T10:15:29.148383+00:00",
-      "last_seen": "2026-06-26T01:31:24.126681+00:00",
+      "last_seen": "2026-06-26T01:36:28.085463+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -21,13 +21,89 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 12,
-        "logins": 114
+        "bots_uploaded": 13,
+        "logins": 119
       },
       "last_expiry_warn": -1
     }
   },
-  "bots": {},
+  "bots": {
+    "4f5f46c874061367": {
+      "_id": "4f5f46c874061367",
+      "owner": 7505070902,
+      "name": "HOSTING-WEB",
+      "dir": "/root/sandbox/7505070902_4f5f46c874061367",
+      "created": "2026-06-26T01:35:53.519184+00:00",
+      "enc_files": [
+        {
+          "key_id": "wHujzUVam80yZQ_nn8TQWA",
+          "enc_path": "/root/storage/encfiles/7505070902/1782437754_app_py.enc",
+          "filename": "app.py",
+          "rel_path": "app.py"
+        },
+        {
+          "key_id": "qDbOR1HMtd5gJ92CXOwUrg",
+          "enc_path": "/root/storage/encfiles/7505070902/1782437754_data_pricing_json.enc",
+          "filename": "pricing.json",
+          "rel_path": "data/pricing.json"
+        },
+        {
+          "key_id": "_Hy-uWCGRngIo_BcE_6e9A",
+          "enc_path": "/root/storage/encfiles/7505070902/1782437755_requirements_txt.enc",
+          "filename": "requirements.txt",
+          "rel_path": "requirements.txt"
+        },
+        {
+          "key_id": "sVk_06nvrg0YV6wo63sARw",
+          "enc_path": "/root/storage/encfiles/7505070902/1782437756_templates_base_html.enc",
+          "filename": "base.html",
+          "rel_path": "templates/base.html"
+        },
+        {
+          "key_id": "KmyEagryPr_hCpywZ7uOLQ",
+          "enc_path": "/root/storage/encfiles/7505070902/1782437756_templates_landing_html.enc",
+          "filename": "landing.html",
+          "rel_path": "templates/landing.html"
+        },
+        {
+          "key_id": "DACWjJ3g_Eily5BP7O_V_g",
+          "enc_path": "/root/storage/encfiles/7505070902/1782437757_templates_login_html.enc",
+          "filename": "login.html",
+          "rel_path": "templates/login.html"
+        },
+        {
+          "key_id": "O27tiS31ok-BwkHQSYTHHA",
+          "enc_path": "/root/storage/encfiles/7505070902/1782437758_templates_owner_html.enc",
+          "filename": "owner.html",
+          "rel_path": "templates/owner.html"
+        },
+        {
+          "key_id": "eLdzhqnQ0l946qw8HujX9g",
+          "enc_path": "/root/storage/encfiles/7505070902/1782437758_templates_pricing_html.enc",
+          "filename": "pricing.html",
+          "rel_path": "templates/pricing.html"
+        },
+        {
+          "key_id": "eVEph6U0AN5OqsSl8qqV2Q",
+          "enc_path": "/root/storage/encfiles/7505070902/1782437759_templates_user_html.enc",
+          "filename": "user.html",
+          "rel_path": "templates/user.html"
+        }
+      ],
+      "env": {},
+      "status": "running",
+      "cron": {},
+      "security_scan": {
+        "verdict": "SUSPICIOUS",
+        "risk_score": 30,
+        "summary": "File type 'pricing.json' allow nahi hai."
+      },
+      "gh_synced_at": 0,
+      "last_started": "2026-06-26T01:36:07.981475+00:00",
+      "last_error": "",
+      "last_exit_code": null
+    }
+  },
   "payments": [],
   "admins": {},
   "audit": [
@@ -211,6 +287,14 @@
       "verdict": "SUSPICIOUS",
       "risk_score": 30,
       "summary": "File type 'force_chats.json' allow nahi hai."
+    },
+    {
+      "ts": "2026-06-26T01:35:53.806536+00:00",
+      "uid": "7505070902",
+      "filename": "pricing.json",
+      "verdict": "SUSPICIOUS",
+      "risk_score": 30,
+      "summary": "File type 'pricing.json' allow nahi hai."
     }
   ]
 }
