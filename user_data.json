@@ -57,9 +57,10 @@
         "summary": "File type 'force_chats.json' allow nahi hai."
       },
       "gh_synced_at": 0,
-      "last_started": "2026-08-22T04:10:17.032462+00:00",
+      "last_started": "2026-08-22T05:38:24.591176+00:00",
       "last_error": "",
-      "last_exit_code": null
+      "last_exit_code": null,
+      "last_exit_at": "2026-08-22T05:38:21.062151+00:00"
     }
   },
   "payments": [],
