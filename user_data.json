@@ -7,7 +7,7 @@
       "plan": "lifetime",
       "plan_expires": "2029-03-04T14:28:42.584675+00:00",
       "joined": "2026-06-09T10:15:29.148383+00:00",
-      "last_seen": "2026-08-20T12:33:00.144311+00:00",
+      "last_seen": "2026-08-22T04:10:09.124009+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -21,29 +21,29 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 16,
-        "logins": 146
+        "bots_uploaded": 17,
+        "logins": 154
       },
       "last_expiry_warn": -1
     }
   },
   "bots": {
-    "bb5a733988e46157": {
-      "_id": "bb5a733988e46157",
+    "79f7d6709cc5ea4c": {
+      "_id": "79f7d6709cc5ea4c",
       "owner": 7505070902,
       "name": "Get-Key",
-      "dir": "/root/sandbox/7505070902_bb5a733988e46157",
-      "created": "2026-08-20T12:33:00.670903+00:00",
+      "dir": "/root/sandbox/7505070902_79f7d6709cc5ea4c",
+      "created": "2026-08-22T04:10:09.632145+00:00",
       "enc_files": [
         {
-          "key_id": "u2cvbOl7pCm_-Ti3Wpsl2g",
-          "enc_path": "/root/storage/encfiles/7505070902/1787229181_Get-Key_py.enc",
+          "key_id": "1QuqP_CYDJU5LdAth31YHg",
+          "enc_path": "/root/storage/encfiles/7505070902/1787371810_Get-Key_py.enc",
           "filename": "Get-Key.py",
           "rel_path": "Get-Key.py"
         },
         {
-          "key_id": "UYLMZpzQG66ZSadpghHa0Q",
-          "enc_path": "/root/storage/encfiles/7505070902/1787229182_force_chats_json.enc",
+          "key_id": "zKdxmigtHXFtHvm26kRhaA",
+          "enc_path": "/root/storage/encfiles/7505070902/1787371811_force_chats_json.enc",
           "filename": "force_chats.json",
           "rel_path": "force_chats.json"
         }
@@ -57,10 +57,9 @@
         "summary": "File type 'force_chats.json' allow nahi hai."
       },
       "gh_synced_at": 0,
-      "last_started": "2026-08-20T12:33:19.161059+00:00",
+      "last_started": "2026-08-22T04:10:17.032462+00:00",
       "last_error": "",
-      "last_exit_code": null,
-      "last_exit_at": "2026-08-20T12:33:15.580960+00:00"
+      "last_exit_code": null
     }
   },
   "payments": [],
@@ -161,6 +160,12 @@
       "uid": 7505070902,
       "action": "bot_delfiles",
       "detail": "bot=0c77e8d8c3560606"
+    },
+    {
+      "ts": "2026-08-22T04:09:53.830080+00:00",
+      "uid": 7505070902,
+      "action": "bot_delfiles",
+      "detail": "bot=bb5a733988e46157"
     }
   ],
   "coupons": {},
@@ -291,6 +296,14 @@
     },
     {
       "ts": "2026-08-20T12:33:00.898292+00:00",
+      "uid": "7505070902",
+      "filename": "force_chats.json",
+      "verdict": "SUSPICIOUS",
+      "risk_score": 30,
+      "summary": "File type 'force_chats.json' allow nahi hai."
+    },
+    {
+      "ts": "2026-08-22T04:10:09.862438+00:00",
       "uid": "7505070902",
       "filename": "force_chats.json",
       "verdict": "SUSPICIOUS",
