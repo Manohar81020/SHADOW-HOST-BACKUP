@@ -7,7 +7,7 @@
       "plan": "lifetime",
       "plan_expires": "2029-03-04T14:28:42.584675+00:00",
       "joined": "2026-06-09T10:15:29.148383+00:00",
-      "last_seen": "2026-08-24T11:29:41.008269+00:00",
+      "last_seen": "2026-08-24T11:33:50.891728+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -22,7 +22,7 @@
       "stats": {
         "commands": 0,
         "bots_uploaded": 18,
-        "logins": 161
+        "logins": 165
       },
       "last_expiry_warn": -1
     }
@@ -61,51 +61,6 @@
       "last_error": "",
       "last_exit_code": null,
       "last_exit_at": "2026-08-24T01:37:22.325195+00:00"
-    },
-    "c1259da1ef913dbb": {
-      "_id": "c1259da1ef913dbb",
-      "owner": 7505070902,
-      "name": "PANNEL-SELL",
-      "dir": "/root/sandbox/7505070902_c1259da1ef913dbb",
-      "created": "2026-08-24T11:29:41.734060+00:00",
-      "enc_files": [
-        {
-          "key_id": "xdwNSj6xMk-tiZ2Mum6Daw",
-          "enc_path": "/root/storage/encfiles/7505070902/1787570982_fff_py.enc",
-          "filename": "fff.py",
-          "rel_path": "fff.py"
-        },
-        {
-          "key_id": "yR-2EFpd6Jkp2S-Fr4hYuw",
-          "enc_path": "/root/storage/encfiles/7505070902/1787570983_local_config_db_json.enc",
-          "filename": "local_config_db.json",
-          "rel_path": "local_config_db.json"
-        },
-        {
-          "key_id": "Wn_eBZLQ0iy_OcplL6ZoYA",
-          "enc_path": "/root/storage/encfiles/7505070902/1787570984_local_products_db_json.enc",
-          "filename": "local_products_db.json",
-          "rel_path": "local_products_db.json"
-        },
-        {
-          "key_id": "LHqL32EncT9FGLcZnO73jQ",
-          "enc_path": "/root/storage/encfiles/7505070902/1787570985_local_users_db_json.enc",
-          "filename": "local_users_db.json",
-          "rel_path": "local_users_db.json"
-        }
-      ],
-      "env": {},
-      "status": "running",
-      "cron": {},
-      "security_scan": {
-        "verdict": "SUSPICIOUS",
-        "risk_score": 30,
-        "summary": "File type 'local_config_db.json' allow nahi hai."
-      },
-      "gh_synced_at": 0,
-      "last_started": "2026-08-24T11:29:53.090652+00:00",
-      "last_error": "",
-      "last_exit_code": null
     }
   },
   "payments": [],
@@ -212,6 +167,12 @@
       "uid": 7505070902,
       "action": "bot_delfiles",
       "detail": "bot=bb5a733988e46157"
+    },
+    {
+      "ts": "2026-08-24T11:33:58.751510+00:00",
+      "uid": 7505070902,
+      "action": "bot_delfiles",
+      "detail": "bot=c1259da1ef913dbb"
     }
   ],
   "coupons": {},
