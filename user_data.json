@@ -7,7 +7,7 @@
       "plan": "lifetime",
       "plan_expires": "2029-03-04T14:28:42.584675+00:00",
       "joined": "2026-06-09T10:15:29.148383+00:00",
-      "last_seen": "2026-08-24T11:33:50.891728+00:00",
+      "last_seen": "2026-08-25T13:43:18.161919+00:00",
       "banned": false,
       "ban_reason": "",
       "wallet": 0,
@@ -21,8 +21,8 @@
       "bot_slots_bonus": 0,
       "stats": {
         "commands": 0,
-        "bots_uploaded": 18,
-        "logins": 165
+        "bots_uploaded": 19,
+        "logins": 170
       },
       "last_expiry_warn": -1
     }
@@ -173,6 +173,12 @@
       "uid": 7505070902,
       "action": "bot_delfiles",
       "detail": "bot=c1259da1ef913dbb"
+    },
+    {
+      "ts": "2026-08-25T13:43:19.955009+00:00",
+      "uid": 7505070902,
+      "action": "bot_delfiles",
+      "detail": "bot=ea6c7e4f1b97e6e8"
     }
   ],
   "coupons": {},
@@ -324,6 +330,14 @@
       "verdict": "SUSPICIOUS",
       "risk_score": 30,
       "summary": "File type 'local_config_db.json' allow nahi hai."
+    },
+    {
+      "ts": "2026-08-25T13:42:54.903453+00:00",
+      "uid": "7505070902",
+      "filename": "login.py",
+      "verdict": "SUSPICIOUS",
+      "risk_score": 10,
+      "summary": "🔍 File suspicious hai. Admin se manual review karwao."
     }
   ]
 }
